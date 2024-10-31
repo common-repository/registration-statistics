@@ -1,0 +1,35 @@
+#registration_statistics_form #date_input {
+	width:150px;
+}
+#registration_statistics_loading_graphic {
+	display:none;
+	background-image:url(../../../../wp-admin/images/wpspin_light.gif);
+	margin-left:5px;
+	padding:1px 8px 0px;
+}
+#registration_statistics_charts {
+	display:none;
+}
+#registration_statistics_date_table, #registration_statistics_cumulative_table {
+	display:none;
+}
+#registration_statistics_dialog p {
+	text-align:center;
+	padding:10px;
+}
+#registration_statistics_dialog a.ui-button {
+	color:#fff;
+	padding:0.5em;
+	border:1px solid #4297d7;
+	background:#5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+	font-weight:bold;
+}
+#registration_statistics_dialog a.ui-button:hover {
+	text-decoration:none;
+}
+.registration_statistics_chart {
+	margin-bottom:15px;
+}
+.registration_statistics_table {
+	margin-top:10px;
+}
